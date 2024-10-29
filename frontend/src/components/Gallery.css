@@ -1,0 +1,15 @@
+/* frontend/src/components/Gallery.css */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+  }
+  
+  .large-g {
+    font-size: 10rem; /* Tamaño de la letra */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Estilo de texto */
+  }
+  
