@@ -1,7 +1,6 @@
 // frontend/src/components/Gallery.js
 import React from 'react';
-import './Gallery.css'; // Importa un archivo CSS para estilos si lo deseas
-
+import './Gallery.css';
 function Gallery() {
   return (
     <div className="gallery-container">
