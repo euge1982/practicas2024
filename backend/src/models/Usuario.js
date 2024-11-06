@@ -1,7 +1,8 @@
 // models/Usuario.js
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database'); // Asegúrate de configurar la conexión a tu base de datos
+const sequelize = require('../config/database'); // Conexión a la base de datos
 
+// Definir el modelo de usuario
 const Usuario = sequelize.define('Usuario', {
   id: {
     type: DataTypes.INTEGER,
@@ -32,8 +33,9 @@ const Usuario = sequelize.define('Usuario', {
     defaultValue: 0,
   },
 }, {
+  // Otros atributos
   tableName: 'usuarios',
   timestamps: false,
 });
 
-module.exports = Usuario;
+module.exports = Usuario;   // Exportar el modelo
